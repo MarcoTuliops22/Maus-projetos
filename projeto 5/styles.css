@@ -1,0 +1,27 @@
+body {
+    background: #343737;
+    align-content: center;
+    justify-content: center;    
+    display: flex;
+}
+h1 {
+    font-size: 120px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+h2:active {
+    background-color: aquamarine;
+    transform: translateY(2px);
+}
+h3:hover {
+    text-decoration: underline;
+    text-decoration-color: #e49fb8
+}
+h3 {
+    background-color: rgb(10, 185, 68);
+    padding: 3px;
+    line-height: 1px;
+    margin: 5px;
+}
+
