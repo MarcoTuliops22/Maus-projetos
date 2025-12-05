@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Quiz para programadores</title>
+    <meta name="description" content="Teste seus conhecimentos em programação com este quiz interativo.">
+    <meta name="keywords" content="quiz, programação, teste de conhecimento, desenvolvedor">
+    <meta name="author" content="Seu Nome">
+</head>
+<body>
+    <header>
+        <h1>Quiz interativo para programadores</h1>
+        <p>Teste seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
+    </header>
+    <main>
+        <section id="quiz">
+            <h2>Quiz de Programação</h2>
+            <form id="quiz-form">
+                <div class="question">
+                    <p>1. Qual linguagem de programação é conhecida por sua simplicidade e legibilidade?</p>
+                    <input type="radio" name="q1" value="a"> Java<br>
+                    <input type="radio" name="q1" value="b"> Python<br>
+                    <input type="radio" name="q1" value="c"> C++<br>
+                </div>
+                <div class="question">
+                    <p>2. O que significa HTML?</p>
+                    <input type="radio" name="q2" value="a"> HyperText Markup Language<br>
+                    <input type="radio" name="q2" value="b"> Home Tool Markup Language<br>
+                    <input type="radio" name="q2" value="c"> Hyperlinks and Text Markup Language<br>
+                </div>
+                <div class="question">
+                    <p>3. Qual dessas é uma linguagem de programação funcional?</p>
+                    <input type="radio" name="q3" value="a"> JavaScript<br>
+                    <input type="radio" name="q3" value="b"> Haskell<br>
+                    <input type="radio" name="q3" value="c"> Ruby<br>
+                </div>
+                <div class="question">
+                    <p>4. O que é um 'loop' em programação?</p>
+                    <input type="radio" name="q4" value="a"> Uma estrutura de dados<br>
+                    <input type="radio" name="q4" value="b"> Uma função que chama a si mesma<br>
+                    <input type="radio" name="q4" value="c"> Uma estrutura que repete um bloco de código<br>
+                </div>
+                <div class="question">
+                    <p>5. Qual dessas ferramentas é usada para controle de versão?</p>
+                    <input type="radio" name="q5" value="a"> Git<br>
+                    <input type="radio" name="q5" value="b"> Docker<br>
+                    <input type="radio" name="q5" value="c"> Jenkins<br>
+                </div>
+                <div class="question">
+                    <p>6. O que significa API?</p>
+                    <input type="radio" name="q6" value="a"> Application Programming Interface<br>
+                    <input type="radio" name="q6" value="b"> Applied Program Integration<br>
+                    <input type="radio" name="q6" value="c"> Advanced Programming Interface<br>
+                </div>
+                <div class="question">
+                    <p>7. Qual dessas linguagens é tipicamente usada para desenvolvimento de aplicativos móveis?</p>
+                    <input type="radio" name="q7" value="a"> Swift<br>
+                    <input type="radio" name="q7" value="b"> PHP<br>
+                    <input type="radio" name="q7" value="c"> SQL<br>
+                </div>
+                <div class="question">
+                    <p>8. O que é um 'bug' em programação?</p>
+                    <input type="radio" name="q8" value="a"> Um erro ou falha no código<br>
+                    <input type="radio" name="q8" value="b"> Uma nova funcionalidade<br>
+                    <input type="radio" name="q8" value="c"> Um tipo de dado<br>
+                </div>
+                <button type="submit">Enviar Respostas</button>
+            </form>
+            <div id="results"></div>
+        </section><section>
+            <h2>Tabela de Pontuação</h2>
+            <table border="1">
+                <tr>
+                    <th>Pontuação</th>
+                    <th>Avaliação</th>
+                </tr>
+                <tr>
+                    <td>0-2</td>
+                    <td>Não desista! cada tentativa é uma oportunidade de você aprender</td>
+                </tr>
+                <tr>
+                    <td>3-5</td>
+                    <td>Você ainda precisa melhorar. Que tal estudar mais sobre programação?</td>
+                </tr>
+                <tr>
+                    <td>6-7</td>
+                    <td>Seu conhecimento de programação está muito bom</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Parabéns! Você é um mestre da programação!</td>
+                </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Continue praticando para um dia chegar a ser um excelente programador!</td>
+                </tr>
+            </tfoot>
+            </table><section>
+                <h2>Verifique suas Respostas</h2>
+                <details>
+                    <summary>Clique para ver as respostas corretas</summary>
+                <ol>
+                    <li>  Python</li>
+                    <li>  HyperText Markup Language</li>
+                    <li>  Haskell</li>
+                    <li>  Uma estrutura que repete um bloco de código</li>
+                    <li>  Git</li>
+                    <li>  Application Programming Interface</li>
+                    <li>  Swift</li>
+                    <li>  Um erro ou falha no código</li>
+                </ol>
+                </details>
+            </section><section>
+                <h2>Nos dê o seu feedback</h2>
+                <form>
+                    <fieldset>
+                    <legend>Informações de contato</legend>    
+                    <label for="name">Nome:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="comentarios">Comentários
+                    </label><br>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite seu comentário aqui"></textarea><br>
+                    <button onclick="alert('FEEDBACK ENVIADO')">Envie o feedback</button> </fieldset>
+                    <br>
+            </section>
+    </main>
+    <footer>
+        <p>&copy Quiz de programadores. Todos os direitos reservados </p>
+        <p>Para conhecer outros quizzes <a href="https://google.com" target="_blank">clique aqui</a></p>
+    </footer>
+</body>
+
+
+
+</html>
